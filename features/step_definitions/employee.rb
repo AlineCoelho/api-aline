@@ -20,7 +20,7 @@ end
 Quando('ele enviar as informacoes do funcionario') do
   @create = Employee_Requests.new
   sleep 10
-  @create_employee = @create.create_employee("Tony", "420800", "30")
+  @create_employee = @create.create_employee('Tony', '420800', '30')
   puts @create_employee
 end
 
